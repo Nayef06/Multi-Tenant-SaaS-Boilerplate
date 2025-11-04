@@ -1,1 +1,3 @@
-/Notes
+!README.md
+*.md
+node_modules/
