@@ -2,8 +2,8 @@ import { Request, Response } from "express-serve-static-core";
 import { CreateUserDto } from "../dtos/CreateUser.dto";
 import { CreateUserQueryParams } from "../types/query-params";
 import { User } from "../types/response";
-import session from "express-session";
-import passport from "passport";
+//import session from "express-session";
+//import passport from "passport";
 
 export function getUsers(request: Request, response: Response) {
     request.customField
