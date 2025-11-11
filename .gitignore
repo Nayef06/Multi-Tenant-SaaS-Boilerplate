@@ -1,3 +1,30 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# Environment & builds
+.env
+.env.local
+dist/
+build/
+coverage/
+
+# Logs
+logs/
+*.log
+*.tmp
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Docker
+*.pid
+
+# Etc
 !README.md
 *.md
-node_modules/
