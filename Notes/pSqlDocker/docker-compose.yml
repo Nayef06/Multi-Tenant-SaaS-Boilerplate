@@ -1,0 +1,12 @@
+version: '3'
+services: 
+  db: 
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: 1000sunny
+      POSTGRES_USER: Luffy
+      POSTGRES_DB: db123
+  app:
+    image: my-node-app # run docker build -t my-node-app to build container
+    ports:
+      - 13000:3000
